@@ -16,8 +16,8 @@ public:
     x(initX), y(initY), z(initZ)
     {}
 
-    double getFloat() {
-        double tmp;
+    float getDouble() {
+        float tmp;
         double intpart;
         x = 171*(x%177) - 2*(x/177);
         if (x < 0) {
